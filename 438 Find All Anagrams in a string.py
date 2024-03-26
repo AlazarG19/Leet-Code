@@ -1,5 +1,7 @@
 def findAnagrams(self, s: str, p: str) -> List[int]:
-    
+    # use sliding algorithm 
+    # in addition to that store the elements occurence in a hashtable 
+    # in order to compare the two strings
     if len(p) > len(s):
         return []
     start = 0
