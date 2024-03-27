@@ -1,3 +1,5 @@
+# use sliding window function and store all the characters
+# inside hashes store each characters
 def checkInclusion(self, s1: str, s2: str) -> bool:
     start = 0 
     end = len(s1)
