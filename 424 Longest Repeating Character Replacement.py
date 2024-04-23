@@ -1,3 +1,8 @@
+# use sliding window to check the frequency of characters. 
+# when k < minimum frequency shift the left so that 
+# k> minimum frequency . THe sum is the difference between 
+# the left and right
+
 def characterReplacement(self, s: str, k: int) -> int:
     l = 0
     count = {}
